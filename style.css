@@ -142,11 +142,10 @@ section .title::after {
 }
 
 /* menu btn styling */
-.btn {
+.menu-btn {
   color: #fff;
   font-size: 23px;
   cursor: pointer;
-  z-index: 10001;
   display: none;
 }
 .scroll-up-btn {
@@ -603,11 +602,11 @@ footer {
 }
 
 @media (max-width: 1060px) {
-  .btn {
+  .menu-btn {
     display: block;
     z-index: 999;
   }
-  .btn i.active:before {
+  .menu-btn i.active:before {
     content: "\f00d";
   }
   .navbar .menu {
