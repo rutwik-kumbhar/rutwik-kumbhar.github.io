@@ -72,9 +72,11 @@ $(document).ready(function () {
     );
   };
   
-  GitHubCalendar(".calendar", "kirti136", {
+  GitHubCalendar(".calendar", "rutwik-kumbhar", {
     responsive: true,
     global_stats: true,
     tooltips: true,
   });
+  
+  
   
